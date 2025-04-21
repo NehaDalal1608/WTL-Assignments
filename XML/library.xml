@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style1.css"?>
+<Library>
+    <Books>
+        <Book id="1">
+            <Title>The Great Gatsby</Title>
+            <Author id="A1">F. Scott Fitzgerald</Author>
+            <Genre>Fiction</Genre>
+            <PublicationYear>1925</PublicationYear>
+            <BookCupboard id="C1"/>
+        </Book>
+        <Book id="2">
+            <Title>To Kill a Mockingbird</Title>
+            <Author id="A2">Harper Lee</Author>
+            <Genre>Fiction</Genre>
+            <PublicationYear>1960</PublicationYear>
+            <BookCupboard id="C2"/>
+        </Book>
+    </Books>
+
+    <Authors>
+        <Author id="A1">
+            <Name>F. Scott Fitzgerald</Name>
+            <Nationality>American</Nationality>
+            <BirthYear>1896</BirthYear>
+        </Author>
+        <Author id="A2">
+            <Name>Harper Lee</Name>
+            <Nationality>American</Nationality>
+            <BirthYear>1926</BirthYear>
+        </Author>
+    </Authors>
+
+    <BookCupboards>
+        <BookCupboard id="C1">
+            <Location>First Floor, Shelf A</Location>
+            <Capacity>50</Capacity>
+        </BookCupboard>
+        <BookCupboard id="C2">
+            <Location>Second Floor, Shelf B</Location>
+            <Capacity>30</Capacity>
+        </BookCupboard>
+    </BookCupboards>
+
+    <Librarians>
+        <Librarian id="L1">
+            <Name>John Doe</Name>
+            <EmployeeID>EMP123</EmployeeID>
+        </Librarian>
+    </Librarians>
+</Library>
