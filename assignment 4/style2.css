@@ -1,0 +1,117 @@
+/* Style for the root element */
+Company {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Style for Employees, Departments, and Offices */
+Employees, Departments, Offices {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* Style for each Employee */
+Employee {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    background-color: #f1f8e9;
+}
+
+/* Style for Employee Name */
+Name {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d35400;
+    margin-bottom: 5px;
+}
+
+/* Style for Position */
+Position {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+/* Style for Department */
+Department {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Style for Salary */
+Salary {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Style for Joining Date */
+JoiningDate {
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Style for Departments */
+Departments Department {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #e74c3c;
+    background-color: #fdecea;
+    border-radius: 5px;
+}
+
+/* Style for Department Name */
+Department Name {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #c0392b;
+}
+
+/* Style for Department Head */
+Head {
+    display: block;
+    font-size: 16px;
+    color: #8e44ad;
+}
+
+/* Style for Offices */
+Offices Office {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #2c3e50;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+/* Style for Office Location */
+Location {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Style for Office Capacity */
+Capacity {
+    display: block;
+    font-size: 14px;
+    color: #16a085;
+}

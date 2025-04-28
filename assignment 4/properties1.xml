@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property>
+        <name>House</name>
+        <location>Mumbai</location>
+        <price>500000</price>
+        <size>2000 sqft</size>
+    </property>
+</properties>

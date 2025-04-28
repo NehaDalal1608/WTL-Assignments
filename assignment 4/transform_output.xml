@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<real_estate>
+  <listing>
+    <type>House</type>
+    <city>Mumbai</city>
+    <cost>500000</cost>
+    <area>2000 sqft</area>
+  </listing>
+  <listing>
+    <type>Apartment</type>
+    <city>Satara</city>
+    <cost>300000</cost>
+    <area>1200 sqft</area>
+  </listing>
+</real_estate>

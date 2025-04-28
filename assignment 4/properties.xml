@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<properties>
+    <property>
+        <name>House</name>
+        <location>Mumbai</location>
+        <price>500000</price>
+        <size>2000 sqft</size>
+    </property>
+    <property>
+        <name>Apartment</name>
+        <location>Satara</location>
+        <price>300000</price>
+        <size>1200 sqft</size>
+    </property>
+</properties>
