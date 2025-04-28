@@ -1,0 +1,49 @@
+/* complex,simple,attribute,rule,need of xml,css and xml use of dtd,define dtd,syntax of brackets,xml and html diff.... */
+project_members{
+    color: brown;
+    background-color: bisque;
+}
+title{
+   color:black;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: large;
+   display: block;
+}
+member{
+    /* font-size:30px; */
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    font-size:30px;
+    display: block;
+}
+
+name{
+    color: blue;
+    font-size:30px;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+}
+rollno{
+    color: blue;
+    font-size: 30px;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+}
+expertise{
+    color:blueviolet;
+    font-size: 35px;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+}
+cgpa{
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+}
