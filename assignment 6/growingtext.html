@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Growing & Shrinking Text</title>
+  <style>
+    #text {
+      color: red;
+      font-size: 10px;
+      font-weight: bold;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="text">Neha Dalal</div>
+
+<script>
+  let fontSize = 10;         
+  let increasing = true;     
+  const maxSize = 60;
+  const minSize = 10;
+  const text = document.getElementById('text');
+
+  setInterval(() => {
+    if (increasing) {
+      fontSize += 2;
+      if (fontSize >= maxSize) increasing = false;
+    } else {
+      fontSize -= 2;
+      if (fontSize <= minSize) increasing = true;
+    }
+    text.style.fontSize = fontSize + 'px';
+  }, 100);
+</script>
+
+</body>
+</html>
